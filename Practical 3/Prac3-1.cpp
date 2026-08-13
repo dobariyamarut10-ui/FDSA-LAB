@@ -15,10 +15,11 @@ void selectionSort(int arr[],int n)
         }
         swap(arr[min],arr[i]);
     }
-
+   cout<<"Your sorted marks are"<<endl;
+    
     for(int i=0;i<n;i++)
     {
-        cout<<"Your sorted marks are"<<arr[i];
+        cout<<arr[i]<<endl;
     }
 }
 
