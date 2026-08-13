@@ -36,7 +36,7 @@ int main()
         cout<<"Enter plate no"<<endl;
         cin>>arr[i];
     }
-    cout<<"Enter key to check"<<endl;
+    cout<<"Enter plate to check"<<endl;
     cin>>key;
     cout<<"Your plate find at "<< checkPlate(arr,n,i,key)<<endl;
 
