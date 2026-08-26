@@ -106,7 +106,6 @@ int main()
         cout << "Enter choice: ";
         cin >> choice;
 
-        // EXIT
         if (choice == 4)
         {
             cout << "Thank you." << endl;
